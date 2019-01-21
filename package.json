@@ -1,0 +1,22 @@
+{
+  "name": "db-history",
+  "version": "1.0.0",
+  "description": "A document database companion library for storing the history of a document in a git repository",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattiasrunge/db-history.git"
+  },
+  "author": "Mattias Runge-Broberg <mattias@runge.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "yarn unit && yarn lint",
+    "unit": "mocha test",
+    "lint": "eslint ."
+  }
+}
