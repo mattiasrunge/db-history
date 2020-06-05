@@ -1,6 +1,6 @@
 {
   "name": "db-history",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A document database companion library for storing the history of a document in a git repository",
   "main": "index.js",
   "repository": {

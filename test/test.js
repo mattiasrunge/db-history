@@ -92,4 +92,11 @@ describe("History", () => {
             await history.fetch(id, revisions[2].revision);
         });
     });
+
+    it("should not fail if there is no change", async () => {
+        const id = "1ab2c3d46j6jk";
+
+        await history.store(id, "hello world", "someone");
+        await history.store(id, "hello world", "someone");
+    });
 });
